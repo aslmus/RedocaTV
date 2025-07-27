@@ -224,7 +224,7 @@
                         <button onclick="search()" 
                                 class="w-20 sm:w-24 flex items-center justify-center bg-white text-black font-medium hover:bg-gray-200 transition-colors" 
                                 aria-label="搜索按钮">
-                            搜索
+                            给我搜！
                         </button>
                     </div>
                     
@@ -328,19 +328,19 @@
     <div id="passwordModal" class="fixed inset-0 bg-black/95 hidden items-center justify-center z-[65] transition-opacity duration-300">
         <div class="bg-[#111] p-8 rounded-lg w-11/12 max-w-md border border-[#333] max-h-[90vh] flex flex-col">
             <div class="flex justify-between items-center mb-6 flex-none">
-                <h2 class="text-2xl font-bold gradient-text">访问验证</h2>
+                <h2 class="text-2xl font-bold gradient-text">莫乱搞哈</h2>
             </div>
             <div class="mb-6">
-                <p class="text-gray-300 mb-4">请输入密码继续访问</p>
+                <p class="text-gray-300 mb-4">喊老公输密码</p>
                 <form id="passwordForm" onsubmit="handlePasswordSubmit(); return false;">
                     <input type="text" name="username" id="username" autocomplete="username" style="display:none" tabindex="-1" aria-hidden="true">
                     <input type="password" id="passwordInput" class="w-full bg-[#111] border border-[#333] text-white px-4 py-3 rounded-lg focus:outline-none focus:border-white transition-colors" placeholder="密码..." autocomplete="new-password">
                     <div class="mt-4 w-full flex space-x-4">
                         <button id="passwordSubmitBtn" type="submit" class="flex-1 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded">提交</button>
-                        <button id="passwordCancelBtn" type="button" onclick="hidePasswordModal()" class="flex-1 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded">取消</button>
+                        <button id="passwordCancelBtn" type="button" onclick="hidePasswordModal()" class="flex-1 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded">算球</button>
                     </div>
                 </form>
-                <p id="passwordError" class="text-red-500 mt-2 hidden">密码错误，请重试</p>
+                <p id="passwordError" class="text-red-500 mt-2 hidden">哦豁！密码错误😢</p>
             </div>
         </div>
     </div>
